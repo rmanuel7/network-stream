@@ -1,4 +1,4 @@
-# AMI Command Syntax
+# [AMI Command Syntax](https://docs.asterisk.org/Configuration/Interfaces/Asterisk-Manager-Interface-AMI/AMI-Command-Syntax/)
 
 Management communication consists of tags of the form `"header: value"`, terminated with an empty newline (`\\r\\n`) in the style of SMTP, HTTP, and other headers.
 
