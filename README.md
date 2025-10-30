@@ -30,7 +30,10 @@ To work with **Transmission Control Protocol** (TCP), you have two options:
 
 #### [Event-based Asynchronous Pattern (EAP)](https://learn.microsoft.com/en-us/dotnet/standard/asynchronous-programming-patterns/event-based-asynchronous-pattern-eap)
 
-**Event-based Asynchronous Pattern (EAP)**, which is the event-based legacy model for providing asynchronous behavior. It requires a method that has the `Async` suffix and one or more events, event handler delegate types, and `EventArg`\-derived types. EAP was introduced in .NET Framework 2.0. It's no longer recommended for new development. For more information, see .
+**Event-based Asynchronous Pattern (EAP)**, which is the event-based legacy model for providing asynchronous behavior. It requires a method that has the `Async` suffix and one or more events, event handler delegate types, and `EventArg`\-derived types. EAP was introduced in .NET Framework 2.0.
+
+> [!CAUTION]
+> **It's no longer recommended** for new development.
 
 #### [Asynchronous Programming Model (APM)](https://learn.microsoft.com/en-us/dotnet/standard/asynchronous-programming-patterns/asynchronous-programming-model-apm)
 
@@ -38,7 +41,8 @@ To work with **Transmission Control Protocol** (TCP), you have two options:
 
 > [!CAUTION]
 > This pattern **is no longer recommended** for new development.
-    
+
+<br/>
 
 ### Comparison of patterns
 
