@@ -55,7 +55,11 @@ By default, AMI is an asynchronous protocol that **sends events immediately to c
 > [!IMPORTANT]
 > *   The exception to this is when the connection is over HTTP; in that scenario, events are only transmitted as part of the response to an HTTP POST.
 > *   Events will **not be sent** until the client provides authorized credentials.
-> *   Keys are case insensitive.
+> *   The actions that are **excluded from successful login** are:
+>     *   Login
+>     *   Logoff
+>     *   Challenge
+> *   Keys are **case insensitive**.
 >     ```
 >     Action: Originat
 >     ACTION: Originate
